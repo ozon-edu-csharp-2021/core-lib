@@ -26,6 +26,6 @@ namespace CSharpCourse.Core.Lib.Events
         /// <summary>
         /// Дополнительные данные по событию.
         /// </summary>
-        public INotificationEventPayload Payload { get; set; }
+        public NotificationEventPayload Payload { get; set; }
     }
 }

@@ -5,7 +5,7 @@ namespace CSharpCourse.Core.Lib.Events
     /// <summary>
     /// Информация по событию "выдача мерча".
     /// </summary>
-    public class MerchDeliveryEventPayload : INotificationEventPayload
+    public class MerchDeliveryEventPayload : NotificationEventPayload
     {
         /// <summary>
         /// Тип выдаваемого мерча.
