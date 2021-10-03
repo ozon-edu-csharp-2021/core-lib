@@ -8,16 +8,26 @@
         /// <summary>
         /// Устройство сотрудника на работу (найм).
         /// </summary>
-        Hiring,
+        Hiring = 100,
+        
+        /// <summary>
+        /// Окончание испытательного срока
+        /// </summary>
+        ProbationPeriodEnding = 200,
+        
+        /// <summary>
+        /// Событие отправки сотрудника на конференцию
+        /// </summary>
+        ConferenceAttendance = 300,
         
         /// <summary>
         /// Выдача мерча.
         /// </summary>
-        MerchDelivery,
+        MerchDelivery = 400,
         
         /// <summary>
         /// UVOLEN.
         /// </summary>
-        Dismissal
+        Dismissal = 1000
     }
 }

@@ -1,0 +1,8 @@
+<Project>
+    
+    <PropertyGroup>
+        <NugetPackageVersion>1.0.0</NugetPackageVersion>
+        <LocalNugetFolder>C:\LocalNugetStore\$(SolutionName)</LocalNugetFolder>
+    </PropertyGroup>
+    
+</Project>

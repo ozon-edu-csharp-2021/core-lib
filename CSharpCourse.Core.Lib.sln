@@ -4,16 +4,28 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCourse.Core.Lib", "sr
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{AD9012D9-767A-4502-AA3F-78DD3301650F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{5AE1A0C3-B898-4553-98E7-A31F05B265E0}"
+ProjectSection(SolutionItems) = preProject
+	.gitignore = .gitignore
+	.gitlab-ci.yml = .gitlab-ci.yml
+	Directory.build.props = Directory.build.props
+	Directory.build.targets = Directory.build.targets
+	README.md = README.md
+EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+		DebugForNugetPackages|Any CPU = DebugForNugetPackages|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{A9FA3D80-3CDF-4F03-B58E-750092E4E409}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9FA3D80-3CDF-4F03-B58E-750092E4E409}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9FA3D80-3CDF-4F03-B58E-750092E4E409}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9FA3D80-3CDF-4F03-B58E-750092E4E409}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9FA3D80-3CDF-4F03-B58E-750092E4E409}.DebugForNugetPackages|Any CPU.ActiveCfg = DebugForNugetPackages|Any CPU
+		{A9FA3D80-3CDF-4F03-B58E-750092E4E409}.DebugForNugetPackages|Any CPU.Build.0 = DebugForNugetPackages|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A9FA3D80-3CDF-4F03-B58E-750092E4E409} = {AD9012D9-767A-4502-AA3F-78DD3301650F}
