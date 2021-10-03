@@ -11,12 +11,12 @@ namespace CSharpCourse.Core.Lib.Events
         /// <summary>
         /// Email сотрудника.
         /// </summary>
-        public string EmployeeEmail { get; set; }
+        public string EmployeeEmail { get; set; } = string.Empty;
         
         /// <summary>
         /// ФИО сотрудника
         /// </summary>
-        public string EmployeeName { get; set; }
+        public string EmployeeName { get; set; } = string.Empty;
         
         /// <summary>
         /// Тип события.
@@ -26,6 +26,6 @@ namespace CSharpCourse.Core.Lib.Events
         /// <summary>
         /// Дополнительные данные по событию.
         /// </summary>
-        public NotificationEventPayload Payload { get; set; }
+        public object? Payload { get; set; }
     }
 }

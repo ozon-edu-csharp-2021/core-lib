@@ -1,3 +1,4 @@
+using System;
 using System.Collections.Generic;
 using CSharpCourse.Core.Lib.Abstractions;
 
@@ -7,7 +8,7 @@ namespace CSharpCourse.Core.Lib.Events
     {
         public long SupplyId { get; set; }
 
-        public ICollection<Item> Items { get; set; }
+        public ICollection<Item> Items { get; set; } = Array.Empty<Item>();
 
         public class Item
         {

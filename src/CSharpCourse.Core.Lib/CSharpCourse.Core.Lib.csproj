@@ -8,5 +8,6 @@
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Configurations>Debug;Release;DebugForNugetPackages</Configurations>
         <Platforms>AnyCPU</Platforms>
+        <Nullable>enable</Nullable>
     </PropertyGroup>
 </Project>
