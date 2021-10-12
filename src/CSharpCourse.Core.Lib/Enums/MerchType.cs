@@ -8,25 +8,26 @@ namespace CSharpCourse.Core.Lib.Enums
         /// <summary>
         /// Набор мерча, выдаваемый сотруднику при устройстве на работу.
         /// </summary>
-        /// <remarks>
-        /// Носочки и футболочка.
-        /// </remarks>
-        WelcomePack,
+        WelcomePack = 10,
         
         /// <summary>
-        /// Набор мерча, выдаваемый сотруднику при посещении конференции.
+        /// Набор мерча, выдаваемый сотруднику при посещении конференции в качестве слушателя.
         /// </summary>
-        /// <remarks>
-        /// Толстовочка.
-        /// </remarks>
-        ConferencePack,
+        ConferenceListenerPack = 20,
+        
+        /// <summary>
+        /// Набор мерча, выдаваемый сотруднику при посещении конференции в качестве спикера.
+        /// </summary>
+        ConferenceSpeakerPack = 30,
         
         /// <summary>
         /// Набор мерча, выдаваемый сотруднику при успешном прохождении испытательного срока.
         /// </summary>
-        /// <remarks>
-        /// Футболочка, толстовочка и портфельчик.
-        /// </remarks>
-        ProbationPeriodEndingPack
+        ProbationPeriodEndingPack = 40,
+        
+        /// <summary>
+        /// Набор мерча, выдаваемый сотруднику за выслугу лет.
+        /// </summary>
+        VeteranPack = 50
     }
 }

@@ -26,7 +26,7 @@
         MerchDelivery = 400,
         
         /// <summary>
-        /// UVOLEN.
+        /// Увольнение сотрудника.
         /// </summary>
         Dismissal = 1000
     }
