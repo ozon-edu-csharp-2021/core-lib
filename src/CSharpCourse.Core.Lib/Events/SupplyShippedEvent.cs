@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using CSharpCourse.Core.Lib.Abstractions;
+using CSharpCourse.Core.Lib.Models;
 
 namespace CSharpCourse.Core.Lib.Events
 {

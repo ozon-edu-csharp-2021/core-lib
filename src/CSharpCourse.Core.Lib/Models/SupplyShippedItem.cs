@@ -1,4 +1,4 @@
-namespace CSharpCourse.Core.Lib.Events
+namespace CSharpCourse.Core.Lib.Models
 {
     public class SupplyShippedItem
     {
