@@ -17,6 +17,16 @@ namespace CSharpCourse.Core.Lib.Events
         /// ФИО сотрудника
         /// </summary>
         public string EmployeeName { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Email менеджера который будет выдавать мерч
+        /// </summary>
+        public string ManagerEmail { get; set; } = string.Empty;
+        
+        /// <summary>
+        /// ФИО менеджера который будет выдавать мерч
+        /// </summary>
+        public string ManagerName { get; set; } = string.Empty;
         
         /// <summary>
         /// Тип события.
